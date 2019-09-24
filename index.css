@@ -9,6 +9,8 @@ body {
     width: 100%;
 }
 
+/* Navigation section */
+
 header {
     height: 60px;
     background-color: #40596B;
@@ -37,6 +39,8 @@ header {
     color: white;
 }
 
+/* Home section */
+
 .home-container {
     background-color: #55C0EC;
 
@@ -44,7 +48,6 @@ header {
     flex-direction: row;
     justify-content: space-around;
     height: 80vh;
-    /* border: 1px solid red; */
 }
 
 .home-container-left {
@@ -55,7 +58,6 @@ header {
     align-items: center;
 
     color: white;
-    /* border: 1px solid royalblue; */
 }
 
 .home-container-right {
@@ -64,8 +66,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border: 1px solid red; */
 }
 
 h5 {
@@ -323,16 +323,6 @@ footer p {
         text-align: center;
     }
     
-    /* .card { */
-        /* margin: 10px; */
-        /* padding: 10px; */
-        /* display: flex;
-        width: 200px;
-        height: 30px;
-        border-radius: 5px;
-        background-color: white; */
-    /* } */
-    
     .card img {
         padding: 40px;
     }
@@ -352,11 +342,10 @@ footer p {
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        /* height: 300px; */
         clear: both;
     }
 
-    /* Add to slack */
+    /* Add to slack section */
 
     .add-to-slack h3 {
         font-size: 44px;
@@ -376,7 +365,7 @@ footer p {
         margin-bottom: 50px;
     }
 
-    /* Footer */
+    /* Footer section */
 
     footer {
         background-color: #40596B;
