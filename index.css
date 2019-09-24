@@ -43,11 +43,12 @@ header {
 
 .home-container {
     background-color: #55C0EC;
+
     display: flex;
     flex-direction: row;
-
-    /* border: 1px solid blue; */
+    justify-content: space-around;
     height: 80vh;
+    /* border: 1px solid red; */
 }
 
 .home-container-left {
@@ -56,7 +57,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     color: white;
+    /* border: 1px solid royalblue; */
 }
 
 .home-container-right {
@@ -64,7 +67,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
     /* border: 1px solid red; */
 }
 
@@ -76,6 +80,28 @@ h5 {
 .btn {
     padding: 12px;
     border-radius: 5px;
+    width: 200px;
+    height: 50px;
+
     border: none;
     background-color: white;
+
+}
+
+.tickybot-title {
+    font-weight: bold;
+    color: #1E4352;
+}
+
+.bot {
+    font-weight: normal;
+}
+
+.slack {
+    font-weight: bold;
+    color: #535758;
+}
+
+.home-container-left h5 {
+    font-weight: normal;
 }
