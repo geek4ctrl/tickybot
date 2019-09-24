@@ -1,0 +1,38 @@
+
+body {
+    font-family: Signika, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+}
+
+header {
+    height: 60px;
+    background-color: #40596B;
+
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: #ECCC99;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+    color: white;
+}
