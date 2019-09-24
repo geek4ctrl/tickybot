@@ -36,3 +36,46 @@ header {
     cursor: pointer;
     color: white;
 }
+
+.home {
+   
+}
+
+.home-container {
+    background-color: #55C0EC;
+    display: flex;
+    flex-direction: row;
+
+    /* border: 1px solid blue; */
+    height: 80vh;
+}
+
+.home-container-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home-container-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+h5 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
