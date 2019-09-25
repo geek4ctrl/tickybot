@@ -232,13 +232,35 @@ footer p {
 
     /* Home section */
 
+    .tickybot-title {
+        padding-top: 0px;
+        margin-top: 0px;
+
+        font-size: 46px;
+    }
+
+    .tickybot-title-first {
+        margin-bottom: 2px;
+    }
+
+    .home-container-left h5 {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+
+        font-size: 24px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        text-align: center;
+    }
+
     .home-container {
         background-color: #55C0EC;
-    
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 80vh;
+        height: 100vh;
     }
 
     .btn {
@@ -261,6 +283,15 @@ footer p {
     .about-container {
         display: flex;
         flex-direction: column;
+
+        text-align: left;
+        padding: 30px;
+
+        font-weight: normal;
+    }
+
+    .about-container h3 {
+        text-align: center;
     }
 
     .about-containers {
